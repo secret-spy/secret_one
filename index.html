@@ -17,10 +17,21 @@
             background-color: #f8f9fa;
         }
         .navbar {
-            background-color: #343a40;
+            background-color: #333; /* Example background color */
         }
-        .navbar a {
-            color: white;
+    
+        .navbar-center {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%); /* Centers the image icon horizontally */
+            z-index: 10;
+        }
+    
+        .navbar-icon {
+            width: 70px; /* Set the width of the icon */
+            height: 70px; /* Set the height of the icon */
+            object-fit: cover; /* Ensure the image fits without distortion */
+            border-radius: 50%; /* Optional: make the image circular */
         }
         .hero {
             text-align: center;
@@ -42,9 +53,23 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container d-flex justify-content-between">
+        <!-- Left Side Links -->
+        <div>
             <a class="navbar-brand" href="#">Rasilla</a>
+        </div>
+
+        <!-- Center Image Icon -->
+        <div class="navbar-center">
+            <a href="#">
+                <img src="https://i.postimg.cc/gk8pKGqM/1.png" alt="Center Icon" class="navbar-icon">
+            </a>
+        </div>
+
+        <!-- Right Side Links -->
+        <div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -57,26 +82,39 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <!-- Hero Section -->
     <div class="hero">
-        <h1>Welcome to Your Adult Website</h1>
+        <!-- <h1>Welcome to Your Desi Adult Website</h1>
         <p>Explore premium content tailored for you.</p>
-        <a href="#" class="btn btn-primary">Get Started</a>
+        <a href="#" class="btn btn-primary">Get Started</a> -->
     </div>
 
     <style>
         .hero {
             text-align: center;
-            padding: 100px 20px; /* Add more padding for better spacing */
+            padding: 100px 20px; /* Adjust padding for spacing */
             color: white; /* Ensure text is visible on the image */
-            background-image: url('https://i.postimg.cc/HW4M1pbD/h.png'); /* Replace with your image URL */
+            background-image: url('https://i.postimg.cc/VkZwNc0Y/1.png'); /* Replace with your image URL */
             background-size: cover; /* Ensure the image covers the entire section */
             background-position: center; /* Center the image */
             background-repeat: no-repeat; /* Prevent image repetition */
+            height: 100vh; /* Ensure the hero section takes up the full viewport height */
+        }
+    
+        @media (max-width: 768px) {
+            .hero {
+                padding: 100px 50px; /* Reduce padding for smaller screens */
+                background-size: contain; /* Scale the image to fit within the hero section */
+                background-position: center top; /* Adjust positioning for better fit */
+                height: auto; /* Allow the height to adjust based on content */
+            }
         }
     </style>
+    
 
     <!-- Content Section -->
     <div class="container my-5">
@@ -84,11 +122,11 @@
             <!-- Example Card -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Content">
+                    <img src="https://i.postimg.cc/MGC6ZDkd/1.png" class="card-img-top" alt="Content">
                     <div class="card-body">
-                        <h5 class="card-title">Category 1</h5>
-                        <p class="card-text">Description of this category goes here.</p>
-                        <a href="#" class="btn btn-primary">View More</a>
+                        <h5 class="card-title">Desi Dhobin Randi Blowjob</h5>
+                        <p class="card-text">Paise lene ke bad dhobin randi land chuste hue.</p>
+                        <a href="https://drive.google.com/file/d/1gXJ6FMvgVY5LuO0dh-1f4GnlprPaaL9G/view?usp=drive_link" class="btn btn-primary">Click to See</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Category 2</h5>
                         <p class="card-text">Description of this category goes here.</p>
-                        <a href="#" class="btn btn-primary">View More</a>
+                        <a href="#" class="btn btn-primary">Click to See</a>
                     </div>
                 </div>
             </div>
@@ -108,8 +146,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Category 3</h5>
                         <p class="card-text">Description of this category goes here.</p>
-                        <a href="#" class="btn btn-primary">View More</a>
-                    </div>
+                        <a href="" class="btn btn-primary" target="_blank">Click to See</a>
+                    </div>                    
                 </div>
             </div>
         </div>
