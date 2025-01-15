@@ -113,100 +113,94 @@
                 height: auto; /* Allow the height to adjust based on content */
             }
         }
-    </style>
-    
+    </style> 
 
-    <!-- Content Section -->
-    <div class="container my-5">
-        <div class="row">
-            <!-- Example Card -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/MGC6ZDkd/1.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Desi Dhobin Randi Blowjob💦💦</h5>
-                        <p class="card-text">Paise lene ke bad dhobin randi land chuste hue.</p>
-                        <a href="https://drive.google.com/file/d/1gXJ6FMvgVY5LuO0dh-1f4GnlprPaaL9G/view?usp=drive_link" class="btn btn-primary">Click to See</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/MTJGRQLb/1.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Desi Randi ko khet me!!💋</h5>
-                        <p class="card-text">Description of this category goes here.</p>
-                        <a href="#" class="btn btn-primary">Click to See</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/TYbfjwrt/1.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Village Girl Show chut👄💋</h5>
-                        <p class="card-text">Description of this category goes here.</p>
-                        <a href="" class="btn btn-primary" target="_blank">Click to See</a>
-                    </div>                    
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/sxXb2Vzd/1.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Hiral Radadiya chut👄💋</h5>
-                        <p class="card-text">Hiral Radadiya Cameltoe Teasing Saying Aage Piche Ho Gaya Part 2</p>
-                        <a href="" class="btn btn-primary" target="_blank">Click to See</a>
-                    </div>                    
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/vZMk1Lbt/2.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Mona Alam Viral Full Mms😎😍</h5>
-                        <p class="card-text">Pakistani anchor Mona Alam Viral Full Mms Sex Video</p>
-                        <a href="" class="btn btn-primary" target="_blank">Click to See</a>
-                    </div>                    
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://i.postimg.cc/j21qxgGc/1.png" class="card-img-top" alt="Content">
-                    <div class="card-body">
-                        <h5 class="card-title">Resmi Nair Pussy sex💦💦</h5>
-                        <p class="card-text">Resmi Nair First Fuck Taking Dick In Pussy App Content</p>
-                        <a href="" class="btn btn-primary" target="_blank">Click to See</a>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Pagination Section -->
-    <div class="d-flex justify-content-center mt-4">
-        <nav aria-label="Page navigation example">
-            <ul class="pagination">
-                <!-- Previous Button -->
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                    </a>
-                </li>
-                <!-- Page Numbers -->
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li> -->
-                <!-- Next Button -->
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+<!-- Content Section -->
+<div id="content-section" class="container my-5">
+    <div class="row" id="content-container">
+        <!-- Content will be dynamically loaded here -->
     </div>
 </div>
+
+<!-- Pagination Section -->
+<div class="d-flex justify-content-center mt-4">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <!-- Previous Button -->
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous" onclick="changePage(currentPage - 1)">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <!-- Page Numbers -->
+            <li class="page-item"><a class="page-link" href="#" onclick="changePage(1)">1</a></li>
+            <li class="page-item"><a class="page-link" href="#" onclick="changePage(2)">2</a></li>
+            <!-- <li class="page-item"><a class="page-link" href="#" onclick="changePage(3)">3</a></li> -->
+            <!-- Next Button -->
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next" onclick="changePage(currentPage + 1)">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    // Data for videos (replace with actual video links and thumbnails)
+    const videoData = [
+        { title: "Desi Dhobin Randi Blowjob💦💦", description: "Paise lene ke bad dhobin randi land chuste hue.", thumbnail: "https://i.postimg.cc/MGC6ZDkd/1.png", link: "https://drive.google.com/file/d/1gXJ6FMvgVY5LuO0dh-1f4GnlprPaaL9G/view?usp=drive_link" },
+        { title: "Desi Randi ko khet me!!💋", description: "Ghar mein akeli bhabhi ka sexy masti moment.", thumbnail: "https://i.postimg.cc/MTJGRQLb/1.png", link: "https://drive.google.com/file/d/1k6yLS_lL-O1zjOKxT0T3OJmqkv6k2v4K/view?usp=sharing" },
+        { title: "Village Girl Show chut👄💋", description: "Gao ki ladki ke saath masti aur romance moments.", thumbnail: "https://i.postimg.cc/TYbfjwrt/1.png", link: "" },
+        { title: "Hiral Radadiya chut👄💋", description: "Hiral Radadiya Cameltoe Teasing Saying Aage Piche Ho Gaya Part 2", thumbnail: "https://i.postimg.cc/sxXb2Vzd/1.png", link: "" },
+        { title: "Mona Alam Viral Full Mms😎😍", description: "Pakistani anchor Mona Alam Viral Full Mms Sex Video", thumbnail: "https://i.postimg.cc/vZMk1Lbt/2.png", link: "" },
+        { title: "Resmi Nair Pussy sex💦💦", description: "Resmi Nair First Fuck Taking Dick In Pussy App Content", thumbnail: "https://i.postimg.cc/j21qxgGc/1.png", link: "" },
+        { title: "Naukrani ko pela💦💦", description: "Milf Mature Naukrani Hardcore Fucked By Young Owner Son", thumbnail: "https://i.postimg.cc/xdMnFhn1/1.png", link: "" }
+    ];
+
+    const itemsPerPage = 6; // Number of videos per page
+    let currentPage = 1; // Current page number
+
+    function loadContent(page) {
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const contentContainer = document.getElementById('content-container');
+
+        // Clear the container
+        contentContainer.innerHTML = "";
+
+        // Add videos for the current page
+        const videos = videoData.slice(startIndex, endIndex);
+        videos.forEach(video => {
+            const videoCard = `
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="${video.thumbnail}" class="card-img-top" alt="${video.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${video.title}</h5>
+                            <p class="card-text">${video.description}</p>
+                            <a href="${video.link}" class="btn btn-primary" target="_blank">Click to Watch👀</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+            contentContainer.innerHTML += videoCard;
+        });
+    }
+
+    function changePage(page) {
+        // Ensure the page is within bounds
+        if (page < 1 || page > Math.ceil(videoData.length / itemsPerPage)) {
+            return;
+        }
+        currentPage = page;
+        loadContent(page);
+    }
+
+    // Load the first page by default
+    loadContent(1);
+</script>
+
 
     <!-- Footer -->
     <div class="footer">
