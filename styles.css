@@ -1,0 +1,55 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #333; /* Example background color */
+}
+
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* Centers the image icon horizontally */
+    z-index: 10;
+}
+
+.navbar-icon {
+    width: 70px; /* Set the width of the icon */
+    height: 70px; /* Set the height of the icon */
+    object-fit: cover; /* Ensure the image fits without distortion */
+    border-radius: 50%; /* Optional: make the image circular */
+}
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #6c757d;
+    color: white;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px; /* Adjust padding for spacing */
+    color: white; /* Ensure text is visible on the image */
+    background-image: url('https://i.postimg.cc/VkZwNc0Y/1.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Ensure the hero section takes up the full viewport height */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 50px; /* Reduce padding for smaller screens */
+        background-size: contain; /* Scale the image to fit within the hero section */
+        background-position: center top; /* Adjust positioning for better fit */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+}
