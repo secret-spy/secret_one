@@ -1,4 +1,13 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /private/
+Allow: /
+
 Sitemap: https://secret-one-sandy.vercel.app/sitemap.xml
+
+# Adult content directive
+User-agent: Googlebot-Image
+Allow: /images/
+
+User-agent: AdsBot-Google
+Disallow: /

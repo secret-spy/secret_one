@@ -1,16 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
+    <!-- Homepage -->
+    <url>
+        <loc>https://secret-one-sandy.vercel.app/</loc>
+        <lastmod>2023-10-15</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Image Metadata -->
+        <image:image>
+            <image:loc>https://i.postimg.cc/gk8pKGqM/1.png</image:loc>
+            <image:title>Adult Content Portal</image:title>
+            <image:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</image:license>
+        </image:image>
+    </url>
 
-<url>
-  <loc>https://secret-one-sandy.vercel.app/</loc>
-  <lastmod>2025-01-18T13:17:23+00:00</lastmod>
-</url>
+    <!-- Video Content Pages -->
+    <url>
+        <loc>https://secret-one-sandy.vercel.app/videos/desi-dhobin-randi</loc>
+        <lastmod>2023-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        
+        <!-- Video Metadata -->
+        <video:video>
+            <video:thumbnail_loc>https://i.postimg.cc/MGC6ZDkd/1.png</video:thumbnail_loc>
+            <video:title>Desi Dhobin Randi Blowjob</video:title>
+            <video:description>Paise lene ke bad dhobin randi land chuste hue</video:description>
+            <video:content_loc>https://drive.google.com/file/d/1gXJ6FMvgVY5LuO0dh-1f4GnlprPaaL9G/view</video:content_loc>
+            <video:duration>300</video:duration>
+            <video:rating>4.5</video:rating>
+            <video:view_count>1500</video:view_count>
+            <video:family_friendly>no</video:family_friendly>
+        </video:video>
+    </url>
 
+    <!-- Repeat for other videos -->
+    <url>
+        <loc>https://secret-one-sandy.vercel.app/videos/desi-randi-khet</loc>
+        <lastmod>2023-10-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <video:video>
+            <!-- Video metadata -->
+        </video:video>
+    </url>
 
+    <!-- Category Pages -->
+    <url>
+        <loc>https://secret-one-sandy.vercel.app/categories/desi</loc>
+        <lastmod>{current_date}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Legal Pages -->
+    <url>
+        <loc>https://secret-one-sandy.vercel.app/2257-compliance</loc>
+        <lastmod>2023-10-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
 </urlset>
